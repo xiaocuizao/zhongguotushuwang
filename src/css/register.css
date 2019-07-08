@@ -1,0 +1,269 @@
+/*头部 CSS*/
+body { background: #f6f4f5; font-family: 'Microsoft YaHei'; }
+input:-webkit-autofill { -webkit-box-shadow: 0 0 0px 1000px white inset !important; }
+.w1000 { width: 1000px; margin: auto; }
+.head { background: #fff; }
+.logoBar { border-bottom: 2px solid #e60000; background: #fff; }
+.logoBar .logoBarInner { width: 1000px; margin: auto; overflow: hidden; }
+.logoBar .logoBarInner .logo { padding: 22px 0px; float: left; }
+.logoBar .logoBarInner h1 { height: 167px; height: 47px; overflow: hidden; text-align: left; }
+.logoBar .logoBarInner .ad { padding: 27px 0px; height: 36px; line-height: 36px; float: right; }
+.logoBar .logoBarInner .ad span { float: left; color: #1a1a1a; font-size: 12px; background: url(http://www.bookschina.com/shopcar/images/promiseAd.png) no-repeat left; padding-left: 49px; margin-right: 33px; }
+.logoBar .logoBarInner .ad span.zhengbang { background-position: left; }
+.logoBar .logoBarInner .ad span.liujiu { background-position: -141px center; }
+.logoBar .logoBarInner .ad span.yizhe { background-position: -289px center; margin-right: 0px; }
+/*底部css*/
+.loginRegistFoot { background:#f6f4f5; overflow:hidden; }
+.loginRegistFoot .footNav { padding-top:46px; }
+.loginRegistFoot .footNav ul { overflow:hidden; width:480px; margin:auto; }
+ .loginRegistFoot .footNav ul li {background: url('../Images/loginRegistfootline.jpg') no-repeat right center; float: left;   height: 20px; line-height: 20px; width: 120px;text-align: center;}
+.loginRegistFoot .footNav ul li a { color:#333333; }
+.loginRegistFoot .footNav ul li a:hover { color:#e60000; }
+.certifica .width820 { width:1000px; margin:20px auto 30px; }
+.credit_certifica { overflow:hidden; float:left; display:inline; margin-left:90px; }
+.licence { float:left; color:#333; display:inline; margin-left:18px; line-height:20px;  }
+.licence p a { margin-right:10px; }
+
+
+/*登录*/
+.loginWrap { margin-top: 20px; }
+.loginForm { background: #fff; padding: 60px 25px 210px; }
+.loginWrap .loginForm .loginTitle { padding-right: 23px; width: 212px; overflow: hidden; height: 24px; line-height: 24px; }
+.loginWrap .loginForm .loginTitle b { float: right; color: #333; height: 24px; font-size: 22px; padding-left: 13px; border-left: 3px solid #e60000; font-weight: bold; }
+.loginWrap .loginForm .loginTitle span { float: left; padding-top: 5px; font-size: 14px; color: #e60000; margin-left: 11px; }
+.loginInputWrap { margin-top: 50px; overflow: hidden; }
+.loginInputWrap .inputItem { padding-bottom: 30px; overflow: hidden; position: relative; }
+.loginInputWrap .inputItem .inputWrap { overflow: hidden; }
+.loginInputWrap .labInpWr { overflow: hidden; }
+.loginInputWrap .labInpWr .label { float: left; height: 42px; padding-right: 23px; line-height: 42px; width: 212px; text-align: right; }
+.loginInputWrap .labInpWr .label span { font-size: 16px; color: #333; }
+.loginInputWrap .labInpWr .inputWrap { border-radius: 4px; overflow: hidden; float: left; height: 40px; border: 1px solid #dcdcdc; width: 303px; padding-right: 35px; position: relative; }
+.loginInputWrap .labInpWr .inputWrap .inputPad { padding: 10px 0; display: block; }
+.loginInputWrap .labInpWr .inputWrap .inputBlock { color: #666; border: none; display: block; width: 100%; height: 20px; line-height: 20px; vertical-align: middle; text-indent: 10px; }
+.loginInputWrap .labInpWr .inputWrap .clearInput { display: none; background: url('../Images/registloginSprit.png') no-repeat left top; cursor: pointer; position: absolute; right: 9px; top: 14px; height: 13px; width: 13px; }
+.loginInputWrap .labInpWr .inputWrap .clearInput:hover { background-position: -25px 0; }
+.loginInputWrap .labInpWr .inputWrap.imgCodeWrap { width: 160px; }
+.loginInputWrap .labInpWr .imgWrap { width: 86px; float: left; margin-left: 10px; cursor: pointer; }
+.loginInputWrap .labInpWr .imgWrap img { height: 40px; display: block; width: 86px; }
+.loginInputWrap .labInpWr .changeImgCoad { float: left; height: 40px; line-height: 40px; }
+.loginInputWrap .labInpWr .changeImgCoad a { color: #1c51a1; margin-left: 10px; font-size: 14px; }
+.loginInputWrap .labInpWr .changeImgCoad a:hover { text-decoration: underline; }
+.loginInputWrap .megTip { display: none; height: 30px; line-height: 30px; position: absolute; bottom: 0; left: 235px; }
+.loginInputWrap .inputItem.focus .megTip { color: #666; display: block; }
+.loginInputWrap .inputItem.focus .inputWrap { color: #666; border: 1px solid #666666; }
+.loginInputWrap .inputItem.error .megTip { color: #e60000; display: block; }
+.loginInputWrap .inputItem.error .inputWrap { border: 1px solid #e60000; }
+.loginInputWrap .inputItem.num .megTip { color: #e60000; display: block; }
+.loginInputWrap .loginBtn { margin: 23px 0 0 235px; }
+.loginInputWrap .loginBtn a { display: block; height: 50px; line-height: 50px; border-radius: 5px; width: 380px; text-align: center; text-decoration: none; background: #e60000; font-size: 16px; color: #fff; letter-spacing: 3px; }
+.loginInputWrap .loginBtn a:hover { background: #ff2832; }
+.loginInputWrap .otherLink { margin: 25px 0 0 235px; width: 380px; overflow: hidden; line-height: 24px; }
+.loginInputWrap .otherLink a { color: #666a6b; font-size: 14px; }
+.loginInputWrap .otherLink .fogotPas { float: left; }
+.loginInputWrap .otherLink .newUserReg { float: right; }
+.loginInputWrap .otherLogin { margin: 20px 0 0 235px; overflow: hidden; }
+.loginInputWrap .otherLogin a { float: left; margin-right: 20px; padding-right:20px; height: 30px; padding-left: 40px; line-height: 30px; color: #666666; font-size: 14px; position: relative; background:url(../Images/loginline.jpg) no-repeat right center; }
+.loginInputWrap .otherLogin a .icon { position: absolute; left: 0; top: 0; height: 30px; width: 30px; background: url('../Images/registloginSprit.png') no-repeat; }
+.loginInputWrap #baidulogin { background:none; }
+.loginInputWrap .otherLogin .tsinalogin .icon { background-position: 0 -20px; }
+.loginInputWrap .otherLogin .qqlogin .icon { background-position: -32px -20px; }
+.loginInputWrap .otherLogin .wxlogin .icon { background-position: -67px -21px; }
+.loginInputWrap .otherLogin .baidulogin .icon {  background-position: -102px -20px;  }
+.otherLoginWrap .therLoginTit { background:url(../Images/logindot.jpg) repeat-x center; margin-left:235px; text-align:center; width:380px; margin-top:46px; }
+.otherLoginWrap .therLoginTit span { background:#fff; padding:0 13px; color:#65696a;  }
+
+.explainLink {  text-align:center;  margin:60px 0 0 235px; width:380px; }
+.explainLink a { font-size:14px;  color:#666;  text-decoration:none;}
+.explainLink a:hover { text-decoration:underline; }
+/*绑定账户*/
+.bindWrap { margin-top: 20px; }
+.bindWrap .bindForm { background: #fff; padding: 60px 30px 140px 50px; }
+.bindWrap .bindForm .bindTit { overflow: hidden; height: 24px; line-height: 24px; }
+.bindWrap .bindForm .bindTit b { float: left; color: #333; height: 24px; font-size: 22px; padding-left: 13px; border-left: 3px solid #e60000; font-weight: bold; }
+.bindWrap .bindUser { height: 26px; line-height: 26px; margin-top: 25px; }
+.bindWrap .bindUser span { font-size: 16px; color: #666666; }
+.bindTabWrap { margin-top: 26px; }
+.bindTab { border-bottom: 1px solid #dcdcdc; height: 45px; }
+.bindTab ul { overflow: hidden; }
+.bindTab ul li { cursor: pointer; float: left; padding: 0 26px; height: 42px; line-height: 42px; border: 1px solid #fff; border-top: 3px solid #fff; border-bottom: none; }
+.bindTab ul li.cur { border: 1px solid #dcdcdc; background: #fff; border-top: 3px solid #e60000; border-bottom: 1px solid #fff; }
+.bindTab ul li span { font-size: 16px; color: #333333; }
+.bindTab ul li.cur span { color: #e60000; }
+.bindTabCon .bindTabItem { display: none; }
+.bindTabCon .bindTabItem.cur { display: block; }
+.ztbindWrap { margin-top: 50px; overflow: hidden; }
+.ztbindWrap .inputItem { padding-bottom: 30px; overflow: hidden; position: relative; }
+.ztbindWrap .inputItem .inputWrap { overflow: hidden; }
+.ztbindWrap .labInpWr { overflow: hidden; }
+.ztbindWrap .labInpWr .label { float: left; height: 42px; padding-right: 23px; line-height: 42px; width: 154px; text-align: right; }
+.ztbindWrap .labInpWr .label span { font-size: 16px; color: #333; }
+.ztbindWrap .labInpWr .inputWrap { border-radius: 4px; overflow: hidden; float: left; height: 40px; border: 1px solid #dcdcdc; width: 303px; padding-right: 35px; position: relative; }
+.ztbindWrap .labInpWr .inputWrap .inputPad { padding: 10px 0; display: block; }
+.ztbindWrap .labInpWr .inputWrap .inputBlock { color: #666; border: none; display: block; width: 100%; height: 20px; line-height: 20px; vertical-align: middle; text-indent: 10px; }
+.ztbindWrap .labInpWr .inputWrap .clearInput { display: none; background: url('../Images/registloginSprit.png') no-repeat left top; cursor: pointer; position: absolute; right: 9px; top: 14px; height: 13px; width: 13px; }
+.ztbindWrap .labInpWr .inputWrap .clearInput:hover { background-position: -25px 0; }
+.ztbindWrap .labInpWr .inputWrap.imgCodeWrap { width: 160px; }
+.ztbindWrap .labInpWr .imgWrap { width: 86px; float: left; margin-left: 10px; cursor: pointer; }
+.ztbindWrap .labInpWr .imgWrap img { height: 40px; display: block; width: 86px; }
+.ztbindWrap .labInpWr .changeImgCoad { float: left; height: 40px; line-height: 40px; }
+.ztbindWrap .labInpWr .changeImgCoad a { color: #1c51a1; margin-left: 10px; font-size: 14px; }
+.ztbindWrap .labInpWr .changeImgCoad a:hover { text-decoration: underline; }
+.ztbindWrap .megTip { display: none; height: 30px; line-height: 30px; position: absolute; bottom: 0; left: 177px; }
+.ztbindWrap .inputItem.focus .megTip { color: #666; display: block; }
+.ztbindWrap .inputItem.focus .inputWrap { color: #666; border: 1px solid #666666; }
+.ztbindWrap .inputItem.error .megTip { color: #e60000; display: block; }
+.ztbindWrap .inputItem.error .inputWrap { border: 1px solid #e60000; }
+.ztbindWrap .loginBtn { margin: 23px 0 0 177px; }
+.ztbindWrap .loginBtn a { display: block; height: 50px; line-height: 50px; border-radius: 5px; width: 380px; text-align: center; text-decoration: none; background: #e60000; font-size: 16px; color: #fff; letter-spacing: 3px; }
+.ztbindWrap .loginBtn a:hover { background: #ff2832; }
+.ztbindWrap .otherLink { margin: 25px 0 0 177px; width: 380px; overflow: hidden; line-height: 24px; }
+.ztbindWrap .otherLink a { color: #666a6b; font-size: 14px; }
+/*绑定手机*/
+.bindPhoneWrap { margin-top: 50px; }
+.bindPhoneForm { margin-top: 50px; overflow: hidden; }
+.registInputWrap { margin-top: 50px; overflow: hidden; }
+.bindPhoneInputWrap .inputItem { padding-bottom: 30px; overflow: hidden; position: relative; }
+.bindPhoneInputWrap .inputItem .inputWrap { overflow: hidden; }
+.bindPhoneInputWrap .labInpWr { overflow: hidden; }
+.bindPhoneInputWrap .labInpWr .label { float: left; height: 42px; padding-right: 23px; line-height: 42px; width: 154px; text-align: right; }
+.bindPhoneInputWrap .labInpWr .label span { font-size: 16px; color: #333; }
+.bindPhoneInputWrap .labInpWr .inputWrap { border-radius: 4px; overflow: hidden; float: left; height: 40px; border: 1px solid #dcdcdc; width: 303px; padding-right: 35px; position: relative; }
+.bindPhoneInputWrap .labInpWr .inputWrap .inputPad { padding: 10px 0; display: block; }
+.bindPhoneInputWrap .labInpWr .inputWrap .inputBlock { color: #666; border: none; display: block; width: 100%; height: 20px; line-height: 20px; vertical-align: middle; text-indent: 10px; }
+.bindPhoneInputWrap .labInpWr .inputWrap .clearInput { display: none; background: url('../Images/registloginSprit.png') no-repeat left top; cursor: pointer; position: absolute; right: 9px; top: 14px; height: 13px; width: 13px; }
+.bindPhoneInputWrap .labInpWr .inputWrap .clearInput:hover { background-position: -25px 0; }
+.bindPhoneInputWrap .labInpWr .inputWrap.imgCodeWrap { width: 160px; }
+.bindPhoneInputWrap .labInpWr .imgWrap { width: 86px; float: left; margin-left: 10px; cursor: pointer; }
+.bindPhoneInputWrap .labInpWr .imgWrap img { height: 40px; display: block; width: 86px; }
+.bindPhoneInputWrap .labInpWr .changeImgCoad { float: left; height: 40px; line-height: 40px; }
+.bindPhoneInputWrap .labInpWr .changeImgCoad a { color: #1c51a1; margin-left: 10px; font-size: 14px; }
+.bindPhoneInputWrap .labInpWr .changeImgCoad a:hover { text-decoration: underline; }
+.bindPhoneInputWrap .megTip { display: none; height: 30px; line-height: 30px; position: absolute; bottom: 0; left: 177px; }
+.bindPhoneInputWrap .inputItem.focus .megTip { color: #666; display: block; }
+.bindPhoneInputWrap .inputItem.focus .inputWrap { color: #666; border: 1px solid #666666; }
+.bindPhoneInputWrap .inputItem.error .megTip { color: #e60000; display: block; }
+.bindPhoneInputWrap .inputItem.error .inputWrap { border: 1px solid #e60000; }
+.bindPhoneInputWrap .inputItem.binded .megTip { color: #f91; display: block; }
+.bindPhoneInputWrap .inputItem.binded .megTip a { color: #38f; text-decoration: none; }
+.bindPhoneInputWrap .inputItem.binded .megTip a:hover { text-decoration: underline; }
+.bindPhoneInputWrap .inputItem.binded .inputWrap { border: 1px solid #f91; }
+.bindPhoneInputWrap .registBtn { margin: 23px 0 0 177px; }
+.bindPhoneInputWrap .registBtn a { display: block; height: 50px; line-height: 50px; border-radius: 5px; width: 380px; text-align: center; text-decoration: none; background: #e60000; font-size: 16px; color: #fff; }
+.bindPhoneInputWrap .registBtn a:hover { background: #ff2832; }
+.bindPhoneInputWrap .phoneCode .labInpWr .inputWrap .sendTime { background: url('../Images/sendtimeline.png') no-repeat left center; color: #e60000; font-size: 14px; height: 40px; line-height: 40px; position: absolute; right: 0; cursor: pointer; top: 0; width: 120px; text-align: center; }
+.bindPhoneInputWrap .phoneCode .labInpWr .inputWrap .sendTime.disabled { color: #999; }
+.bindPhoneInputWrap .labInpWr .inputWrap .clearInput { display: none; background: url('../Images/registloginSprit.png') no-repeat left top; cursor: pointer; position: absolute; right: 9px; top: 14px; height: 13px; width: 13px; }
+.bindPhoneInputWrap .phoneCode .labInpWr .inputWrap .clearInput { right: 129px; }
+/*注册*/
+.registWrap { margin-top: 20px; }
+.registForm { background: #fff; padding: 60px 50px 170px; }
+.registWrap .registForm .registTitle { overflow: hidden; height: 24px; line-height: 24px; }
+.registWrap .registForm .registTitle b { float: left; color: #333; height: 24px; font-size: 22px; padding-left: 13px; border-left: 3px solid #e60000; font-weight: bold; }
+.registWrap .registForm .registTitle span { float: left; padding-top: 5px; font-size: 14px; color: #e60000; margin-left: 11px; }
+.registWrap .registForm .registTitle .backLogin { float: right; color: #c1c1c1; font-size: 14px; padding-top: 5px; }
+.registWrap .registForm .registTitle .backLogin a { color: #999999; text-decoration: none; }
+.registWrap .registForm .registTitle .backLogin a:hover { text-decoration: underline; }
+.registInputWrap { margin-top: 50px; overflow: hidden; }
+.registInputWrap .inputItem { padding-bottom: 30px; overflow: hidden; position: relative; }
+.registInputWrap .inputItem .inputWrap { overflow: hidden; }
+.registInputWrap .labInpWr { overflow: hidden; }
+.registInputWrap .labInpWr .label { float: left; height: 42px; padding-right: 23px; line-height: 42px; width: 154px; text-align: right; }
+.registInputWrap .labInpWr .label span { font-size: 16px; color: #333; }
+.registInputWrap .labInpWr .inputWrap { border-radius: 4px; overflow: hidden; float: left; height: 40px; border: 1px solid #dcdcdc; width: 303px; padding-right: 35px; position: relative; }
+.registInputWrap .labInpWr .inputWrap .inputPad { padding: 10px 0; display: block; }
+.registInputWrap .labInpWr .inputWrap .inputBlock { color: #666; display: block; width: 100%; height: 20px; line-height: 20px; vertical-align: middle; text-indent: 10px;  outline:none; border: none;  }
+/* .registInputWrap .phoneCode .labInpWr .inputWrap { } */
+.registInputWrap .phoneCode .labInpWr .inputWrap .sendTime { background: url('../Images/sendtimeline.png') no-repeat left center; color: #e60000; font-size: 14px; height: 40px; line-height: 40px; position: absolute; right: 0; cursor: pointer; top: 0; width: 120px; text-align: center; }
+.registInputWrap .phoneCode .labInpWr .inputWrap .sendTime.disabled { color: #999; }
+.registInputWrap .labInpWr .inputWrap .clearInput { display: none; background: url('../Images/registloginSprit.png') no-repeat left top; cursor: pointer; position: absolute; right: 9px; top: 14px; height: 13px; width: 13px; }
+.registInputWrap .phoneCode .labInpWr .inputWrap .clearInput { right: 129px; }
+.registInputWrap .labInpWr .inputWrap .clearInput:hover { background-position: -25px 0; }
+.registInputWrap .labInpWr .inputWrap.imgCodeWrap { width: 160px; }
+.registInputWrap .labInpWr .imgWrap { width: 86px; float: left; margin-left: 10px; cursor: pointer; }
+.registInputWrap .labInpWr .imgWrap img { height: 40px; display: block; width: 86px; }
+.registInputWrap .labInpWr .changeImgCoad { float: left; height: 40px; line-height: 40px; }
+.registInputWrap .labInpWr .changeImgCoad a { color: #1c51a1; margin-left: 10px; font-size: 14px; }
+.registInputWrap .labInpWr .changeImgCoad a:hover { text-decoration: underline; }
+.registInputWrap .megTip { display: none; height: 30px; line-height: 30px; position: absolute; bottom: 0; left: 177px; }
+.registInputWrap .inputItem.focus .megTip { color: #666; display: block; }
+.registInputWrap .inputItem.focus .inputWrap { color: #666; border: 1px solid #666666; }
+.registInputWrap .inputItem.error .megTip { color: #e60000; display: block; }
+.registInputWrap .inputItem.error .inputWrap { border: 1px solid #e60000; }
+.registInputWrap .inputItem.binded .megTip { color: #f91; display: block; }
+.registInputWrap .inputItem.binded .inputWrap { border: 1px solid #f91; }
+.registInputWrap .inputItem.binded .megTip a { color: #38f; text-decoration: none; }
+.registInputWrap .inputItem.binded .megTip a:hover { text-decoration: underline; }
+.registInputWrap .registBtn { margin: 23px 0 0 177px; }
+.registInputWrap .registBtn span { cursor:pointer; display: block; height: 50px; line-height: 50px; border-radius: 5px; width: 380px; text-align: center; text-decoration: none; background: #e60000; font-size: 16px; color: #fff; }
+.registInputWrap .registBtn a { cursor:pointer; display: block; height: 50px; line-height: 50px; border-radius: 5px; width: 380px; text-align: center; text-decoration: none; background: #e60000; font-size: 16px; color: #fff; }
+.registInputWrap .labInpWr .sucessWrap { display:none; float: left; height: 17px;width: 17px;background: url('../Images/sucessTip.png') no-repeat center; margin:13px 0 0 20px;}
+/*忘记密码*/
+.forgetWrap { margin-top: 20px; }
+.forgetWrap .forgetForm .forgetTitle { overflow: hidden; height: 24px; line-height: 24px; }
+.forgetWrap .forgetForm .forgetTitle b { float: left; color: #333; height: 24px; font-size: 22px; padding-left: 13px; border-left: 3px solid #e60000; font-family: 'Microsoft YaHei'; }
+.forgetWrap .forgetForm { background: #fff; padding: 60px 50px 170px; }
+.forgetWrap .forgetProgress { width: 468px; margin: 20px auto 0; }
+.forgetProgress ul { overflow: hidden; }
+.forgetProgress ul li { float: left; width: 117px; text-align: center; }
+.forgetProgress ul li .progressNum { height: 38px; line-height: 38px; background: url('../Images/huise.jpg') no-repeat center; color: #fff; font-size: 18px; font-family: 'Microsoft YaHei'; }
+.forgetProgress ul li .progressText { color: #b9b8b8; font-size: 14px; font-family: 'Microsoft YaHei'; font-size: 14px; line-height: 24px; margin-top: 5px; }
+.forgetProgress ul li.doing .progressNum { background: url('../Images/lvshe.jpg') no-repeat center; }
+.forgetProgress ul li.doing .progressText { color: #66c67f; }
+.forgetProgress ul li.done .progressNum { background: url('../Images/doneprogreww.jpg') no-repeat center; }
+.forgetProgress ul li.done .progressText { color: #a6f4ba; }
+.forgetInputWrap { overflow: hidden; width: 590px; margin: 50px auto 0; }
+.forgetInputWrap .inputItem { padding-bottom: 30px; position: relative; }
+.forgetInputWrap .inputItem.hide { display: none; }
+.forgetInputWrap .inputItem .inputWrap { overflow: hidden; }
+.forgetInputWrap .labInpWr { overflow: hidden; }
+.forgetInputWrap .labInpWr .label { float: left; height: 42px; padding-right: 23px; line-height: 42px; width: 154px; text-align: right; }
+.forgetInputWrap .labInpWr .label span { font-size: 16px; color: #333; }
+.forgetInputWrap .labInpWr .inputWrap { border-radius: 4px; overflow: hidden; float: left; height: 40px; border: 1px solid #dcdcdc; width: 303px; padding-right: 35px; position: relative; }
+.forgetInputWrap .labInpWr .inputWrap .inputPad { padding: 10px 0; display: block; }
+.forgetInputWrap .labInpWr .inputWrap .inputBlock { color: #666; border: none; display: block; width: 100%; height: 20px; line-height: 20px; vertical-align: middle; text-indent: 10px; }
+.forgetInputWrap .verificationWrap .labInpWr .inputWrap { padding-right: 0px; width: 338px; }
+.forgetInputWrap .labInpWr .inputWrap .verificationMthod { line-height: 20px; border: none; display: block; width: 100%; text-indent: 10px; color: #666; }
+.forgetInputWrap .labInpWr .inputWrap .clearInput { display: none; background: url('../Images/registloginSprit.png') no-repeat left top; cursor: pointer; position: absolute; right: 9px; top: 14px; height: 13px; width: 13px; }
+.forgetInputWrap .labInpWr .inputWrap .clearInput:hover { background-position: -25px 0; }
+.forgetInputWrap .labInpWr .inputWrap.imgCodeWrap { width: 160px; }
+.forgetInputWrap .labInpWr .imgWrap { width: 86px; float: left; margin-left: 10px; cursor: pointer; }
+.forgetInputWrap .labInpWr .imgWrap img { height: 40px; display: block; width: 86px; }
+.forgetInputWrap .labInpWr .changeImgCoad { float: left; height: 40px; line-height: 40px; }
+.forgetInputWrap .labInpWr .changeImgCoad a { color: #1c51a1; margin-left: 10px; font-size: 14px; }
+.forgetInputWrap .labInpWr .changeImgCoad a:hover { text-decoration: underline; }
+.forgetInputWrap .megTip { display: none; height: 30px; line-height: 15px; position: absolute; top: 45px; left: 177px; }
+.forgetInputWrap .inputItem.focus .megTip { color: #666; display: block; }
+.forgetInputWrap .inputItem.focus .inputWrap { color: #666; border: 1px solid #666666; }
+.forgetInputWrap .inputItem.error .megTip { color: #e60000; display: block; }
+.forgetInputWrap .inputItem.error .inputWrap { border: 1px solid #e60000; }
+.forgetInputWrap .inputItem.binded .megTip { color: #f91; display: block; }
+.forgetInputWrap .inputItem.binded .inputWrap { border: 1px solid #f91; }
+.forgetInputWrap .inputItem.binded .megTip a { color: #38f; text-decoration: none; }
+.forgetInputWrap .inputItem.binded .megTip a:hover { text-decoration: underline; }
+.forgetInputWrap .forgetBtn { margin: 15px auto 0; }
+.forgetInputWrap .forgetBtn a { display: block; height: 38px; line-height: 38px; border: 1px solid #dcdcdc; border-radius: 3px; margin: auto; width: 137px; text-align: center; text-decoration: none; background: #ebfef0; font-size: 16px; color: #6f5e5e; }
+.forgetInputWrap .forgetBtn a:hover { background: #66c67f; color: #ffffff; }
+.forgetInputWrap .phoneCode .labInpWr .inputWrap { width: 160px; }
+.forgetInputWrap .phoneCode .labInpWr .sendTime { cursor: pointer; margin-left: 20px; float: left; border: 1px solid #dcdcdc; color: #6f5e5e; background: #ebfef0; font-size: 14px; height: 40px; line-height: 40px; width: 120px; text-align: center; }
+.forgetInputWrap .phoneCode .labInpWr .inputWrap .sendTime.disabled { color: #999; }
+.forgetInputWrap .mailboxItem .labInpWr .inputWrap { width: 160px; }
+.forgetInputWrap .mailboxItem .labInpWr .sendTime { cursor: pointer; margin-left: 20px; float: left; border: 1px solid #dcdcdc; background: #ebfef0; color: #6f5e5e; font-size: 14px; height: 40px; line-height: 40px; width: 120px; text-align: center; }
+.forgetInputWrap .mailboxItem .labInpWr .inputWrap .sendTime.disabled { color: #999; }
+.forgetInputWrap .labInpWr .inputWrap.disabled { background: #ebebe4; }
+.forgetInputWrap .labInpWr .inputWrap .clearInput { display: none; background: url('../Images/registloginSprit.png') no-repeat left top; cursor: pointer; position: absolute; right: 9px; top: 14px; height: 13px; width: 13px; }
+.forgetInputWrap .phoneCode .labInpWr .inputWrap .clearInput { right: 129px; }
+/*找回密码成功*/
+.forgetPwdSucess { text-align: center; }
+.forgetPsdSucessText { text-align: center; line-height: 20px; color: #b9b8b8; font-size: 16px; font-family: 'Microsoft YaHei'; margin-top: 20px; }
+.forgetPsdSucessLink { overflow: hidden; margin-top: 40px; }
+.forgetPsdSucessLink a { font-size: 16px; font-family: 'Microsoft YaHei'; color: #029528; margin: 0 50px; }
+.forgetPsdSucessLink a:hover { text-decoration: underline; }
+.forgetCountDown { padding-top: 80px; text-align: center; font-size: 16px; }
+.forgetCountDown span { color: #029528; font-weight: bold; }
+/*客服*/
+.cusSer {position: fixed;right: 0;top: 150px;z-index: 999;}
+.cusSer .cusSerIn { position: relative; padding-left: 24px;}
+.cusSer .slide_min { width: 24px;font-family: SimHei; font-size: 14px; height: 64px;cursor: pointer; text-align: center; background: #ff6c00 url(http://image31.bookschina.com/pro-images/qqkefu/kefu.png) no-repeat center 5px;color: #fff;padding-top: 24px;line-height: 15px;border-radius: 5px 0 0 5px;position: absolute;left: 0; top: 50%; margin-top: -44px; text-decoration:none;}
+
+
+

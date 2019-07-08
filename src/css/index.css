@@ -28,8 +28,8 @@ body { font-family:"宋体"; font-size:12px; background:#fff;  }
 .bannerdot a span { display: table-cell; vertical-align:middle; padding:0 10px;  }
 .bannerdot a.on { background:#e60000;filter:Alpha(opacity=100)\9;  }
 .bannerWrap .banner .arrow { position:absolute; width:27px; height:38px; top:50%; margin-top:-19px; cursor:pointer; display:none;  }
-.bannerWrap .banner .leftArrow { left:0; background:url(../Images/homeindex.png) no-repeat -73px -38px; background-color:#000; background-color:rgba(0,0,0,0.35);}
-.bannerWrap .banner .rightArrow { right:0; background:url(../Images/homeindex.png) no-repeat -73px 0px; background-color:#000; background-color:rgba(0,0,0,0.35);}
+.bannerWrap .banner .leftArrow { left:0; background:url(../img/homeindex.png) no-repeat -73px -38px; background-color:#000; background-color:rgba(0,0,0,0.35);}
+.bannerWrap .banner .rightArrow { right:0; background:url(../img/homeindex.png) no-repeat -73px 0px; background-color:#000; background-color:rgba(0,0,0,0.35);}
 .bannerWrap .banner .arrow:hover { background-color:rgba(0,0,0,0.2);}
 .bannerWrap .banner:hover .arrow { display:block;}
 /*主编推荐 本周精选  新书速递  读者热评  畅销榜*/
@@ -63,7 +63,7 @@ body { font-family:"宋体"; font-size:12px; background:#fff;  }
 .mainEditor .mainFont { height:96px; overflow:hidden;}
 .mainEditor p { color:#666666; line-height:24px; text-indent:2em; margin-top:1px;}
 .mainEditor .priceWrap .startWrap { float:left; overflow:hidden; margin-left:27px; height:30px; }
-.mainEditor .priceWrap .startWrap i { float:left; background: url(../Images/homeindex.png) no-repeat; height:13px; width:13px; margin:8px 3px 0 0;  }
+.mainEditor .priceWrap .startWrap i { float:left; background: url(../img/homeindex.png) no-repeat; height:13px; width:13px; margin:8px 3px 0 0;  }
 .mainEditor .priceWrap .startWrap i.one { background-position:0px -386px; }
 .mainEditor .priceWrap .startWrap i.half { background-position:-33px -386px; }
 .mainEditor .priceWrap .startWrap b { float:left; margin-left:17px; color:#ff6c00; }
@@ -90,7 +90,7 @@ body { font-family:"宋体"; font-size:12px; background:#fff;  }
 #hotComment .tabbook .name { height:18px; overflow:hidden; }
 
 .tabItem .tabbook .startWrap { float:left; overflow:hidden; height:18px; line-height:18px; padding:0 18px; }
-.tabItem .tabbook .startWrap i { float:left; background: url(/Images/homeindex.png) no-repeat -17px -386px;  height:13px; width:13px; margin:3px 3px 0 0;  }
+.tabItem .tabbook .startWrap i { float:left; background: url(../img/homeindex.png) no-repeat -17px -386px;  height:13px; width:13px; margin:3px 3px 0 0;  }
 .tabItem .tabbook .startWrap i.one { background-position:0px -386px; }
 .tabItem .tabbook .startWrap i.half { background-position:-33px -386px; }
 .tabItem .tabbook .startWrap b { color:#ff6c00; float:right; }
@@ -104,7 +104,7 @@ body { font-family:"宋体"; font-size:12px; background:#fff;  }
 
 
 .tabConList .arrow { position:absolute; width:27px; height:38px; top:50%; margin-top:-57px; cursor:pointer; z-index:9; display:none;  }
-.tabConList .leftArrow { left:0; background:url(../Images/homeindex.png) no-repeat -73px -38px; background-color:#000; background-color:rgba(0,0,0,0.35);}
+.tabConList .leftArrow { left:0; background:url() no-repeat -73px -38px; background-color:#000; background-color:rgba(0,0,0,0.35);}
 .tabConList .rightArrow { right:0; background:url(../Images/homeindex.png) no-repeat -73px 0px; background-color:#000; background-color:rgba(0,0,0,0.35);}
 .tabConList:hover .arrow { display:block; } 
 .tabConList .arrow:hover { background-color:rgba(0,0,0,0.2); display:block }
@@ -172,7 +172,6 @@ body { font-family:"宋体"; font-size:12px; background:#fff;  }
 .newTit b span { position:absolute; left:0; top:20px; height:13px; width:14px; background: url(../Images/childredSprit.png) no-repeat -57px -425px;  } 
 .newTit b:hover { color:#e60000; }
 .newTit b:hover span { background: url(../Images/childredSprit.png) no-repeat -57px -445px;  }.newCon { position:relative;}
-.newWrap {   }
 .newWrap ul { overflow:hidden;background: url('../Images/kindline.jpg') repeat-y right\9;  }
 .newWrap ul li { float:left; height:206px; width:239px; border:1px solid #e6e6e6; border-top-width:2px; border-right:none; position:relative; }
 .newWrap ul li .icon { position:absolute; right:10px; top:50px; } 
@@ -462,21 +461,21 @@ transition: -webkit-transform .4s ease-out; -moz-transition: transform .4s ease-
 .pubTit h2 a { color:#5eadb1; text-decoration:none; font-size: 20px;   font-family: "Microsoft YaHei";  font-weight:400; }
 
 .pubCon { margin-top:10px; }
-.pubCon .pubLeft { float:left;  width:210px;background:#f5f5f5;  }
-.pubCon .pubNav ul { overflow:hidden;  }
+.pubCon .pubLeft { float:left;  width:210px;background-color:#f5f5f5 }
+.pubCon .pubNav ul { overflow:hidden;position:relative;height:420px;}
 .pubCon .pubNav ul li { position:relative; height:42px; line-height:42px;   white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
 .pubCon .pubNav ul li a { color:#333; text-decoration:none; padding:0 20px;  display:block; height:42px;   }
 .pubCon .pubNav ul li.cur { background:#5eadb1;}
 .pubCon .pubNav ul li.cur a { color:#fff; }
 .pubCon .pubNav ul li span { position:absolute; height:42px; line-height:42px; color:#fff; right:10px; top:0;}
 .pubCon .pubNav .butWrap { height:28px; margin:0 10px; border-top:1px solid #e3e3e3; }
-.pubCon .pubNav .butWrap span { float:right; margin:4px 0 0 6px; height:20px; width:20px;  cursor:pointer;   background:#fff url(../Images/homeindex.png) no-repeat; }
+.pubCon .pubNav .butWrap span { float:right; margin:4px 0 0 6px; height:20px; width:20px;  cursor:pointer;   background:#fff url(../img/homeindex.png) no-repeat; }
 .pubCon .pubNav .butWrap span.downArrow {  background-position:0px -422px; }
 .pubCon .pubNav .butWrap span.upArrow {  background-position:-0px -401px;  }
 .pubCon .pubNav .butWrap span.prevStop {  background-position:-21px -401px;}
 .pubCon .pubNav .butWrap span.nextStop {  background-position:-21px -422px; }
 /*.pubCon .pubNav .butWrap span.downArrow:hover {  background-position:-21px -422px;  }
-.pubCon .pubNav .butWrap span.upArrow:hover { background-position:-21px -401px; }*/
+bCon .pubNav .butWrap span.upArrow:hover { background-position:-21px -401px; }*/
 
 .pubCon .pubRight { float:right; width:740px; }
 .pubCon .pubItem { display:none; }

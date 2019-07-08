@@ -33,7 +33,7 @@
 
 .topBar .webTool .dt { line-height:28px; display:block; height:29px; padding:0 16px 0 16px;  border:1px solid #f2f2f2;   border-bottom:none; position:relative; z-index:10;  }
 .topBar .webTool .drop .dt  {  padding:0 26px 0 14px; } 
-.topBar .webTool .dt .icon {position: absolute;background: url(../Images/homeindex.png) no-repeat 0 0;width:8px; height:4px;left:68px;top:12px;}
+.topBar .webTool .dt .icon {position: absolute;background: url(../img/homeindex.png) no-repeat 0 0;width:8px; height:4px;left:68px;top:12px;}
 .topBar .webTool ul .drop:hover {box-shadow:1px 1px 2px #e6e6e6; }
 .topBar .webTool ul .drop:hover .dt {border:1px solid #dadada; background:#ffffff;   border-bottom:none;}
 .topBar .webTool ul .drop:hover .dt b {background: url(../Images/homeindex.png) no-repeat 0 -4px;}
@@ -83,7 +83,7 @@
 .searchBar .notice ul li { height:40px; overflow:hidden;  display: table;}
 .searchBar .notice a { font-family:"Microsoft YaHei"; display: table-cell;   vertical-align: middle; font-size:14px; line-height:20px; color:#000; text-decoration:none;}
 .searchBar .notice ul li a.first { color:#f60000;  } 
-.searchBar .notice .icon { position:absolute; width:23px; height:23px; left:0; top:50%; margin-top:-11px;background: url(../Images/homeindex.png?id=0427) no-repeat 0 -27px;  }
+.searchBar .notice .icon { position:absolute; width:23px; height:23px; left:0; top:50%; margin-top:-11px;background: url(../img/homeindex.png) no-repeat 0 -27px;  }
 
 
 /*头部图书轮播*/
@@ -151,7 +151,7 @@
 #nav .category-content{position:relative; z-index:113;}
 #nav .category-content .all-goods{ float:left; width:200px; height:42px;  position:relative; }
 #nav .category-content .all-goods h2{ background:#e60000 url(../Images/categoryarrowdown.png) no-repeat 159px 18px; line-height:42px;  color:#fff;font-size:16px;position:relative; font-family:"Microsoft YaHei"; font-weight:400; z-index:114; text-indent:40px;z-index:114;   cursor:pointer; }
-#nav .category-content .all-goods .icon {position:absolute; width:16px; height:15px; background: url(../Images/homeindex.png) no-repeat -9px 0px; left:13px; top:14px;}
+#nav .category-content .all-goods .icon {position:absolute; width:16px; height:15px; background: url(../img/homeindex.png) no-repeat -9px 0px; left:13px; top:14px;}
 #nav .category-content .specil_category {float:left;width:1000px;  } 
 #nav .category-content .specil_category li { float:left; line-height:42px; }
 #nav .category-content .specil_category li a { display:block; height:42px; padding:0 26px; text-decoration:none; color:#333333; font-size:18px; font-family:"Microsoft YaHei";  }
@@ -161,7 +161,7 @@
 .category-content .category{position:absolute;top:42px;z-index:112;width:200px; height:696px;}
 .category-content .category .categoryInner { border:1px solid #e60000;border-top:none; background:#fff; }
 .category-content .category .guanggao { margin-top:11px;  }
-.category-content .category-list > li { padding-top: 2px; background: url('../Images/navline.jpg') no-repeat bottom center;padding-bottom: 2px; border-left: 2px solid #fff;border-right: none;position: relative;z-index: 113;vertical-align: bottom;}
+.category-content .category-list > li { padding-top: 2px; background: url('../img/navline.jpg') no-repeat bottom center;padding-bottom: 2px; border-left: 2px solid #fff;border-right: none;position: relative;z-index: 113;vertical-align: bottom;}
 .category-content .category-info{padding-left:11px; position:relative;}
 .category-content .category-name{ padding-top:8px;}
 .category-content .category-name a{color:#e60000; font-family:'Microsoft YaHei'; font-size:16px; font-weight:400;   }
