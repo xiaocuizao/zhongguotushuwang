@@ -1,0 +1,40 @@
+body {font-family: "Microsoft YaHei",tahoma,arial,"Hiragino Sans GB","\5b8b\4f53",sans-serif; font-size: 12px;}
+
+.addToCart { border:1px solid #e4e4e4; padding:0 30px; margin-top:30px;}
+.addToCart .ATC_tit { height:89px;border-bottom:1px solid #e4e4e4;  overflow:hidden;}
+.addToCart .ATC_tit h1 {  position:relative;  overflow:hidden; font-size:22px; color:#1a1a1a; margin-top:30px; line-height:40px; padding-left:50px;}
+.addToCart .ATC_tit h1 span { position:absolute;  background:url(../images/carSprites.png) no-repeat -50px -61px; height:41px; width:41px; left:0; top:0; }
+.addToCart .ATC_tit h1 span.error {background-position:-94px -91px !important; }
+
+
+.addToCart .ATC_con { padding:26px 0px 21px;}
+.addToCart .ATC_con .ATC_book { }
+.addToCart .ATC_con .ATC_book .clearfix { margin-bottom:10px;}
+.addToCart .ATC_con .ATC_book .book_cover {height:59px; width:64px; padding-top:5px; border:1px solid #ececf0; margin-right:10px; text-align:center;}
+.addToCart .ATC_con .ATC_book .book_cover img { height:54px; max-width:54px; }
+.addToCart .ATC_con .ATC_book .book_detail { line-height:30px;}
+.addToCart .ATC_con .ATC_book .book_detail .book_name a { color:#333333; font-size:14px;}
+.addToCart .ATC_con .ATC_book .book_detail .price span.price_sell { color:#ff2832; margin-right:18px;}
+.addToCart .ATC_con .ATC_book .book_detail .price span.price_ding { color:#666666;}
+.addToCart .ATC_con .ATC_btn { padding-top:17px;}
+.addToCart .ATC_con .ATC_btn a { float:left; height:34px; line-height:34px; text-align:center; font-size:14px; text-decoration:none;}
+.addToCart .ATC_con .ATC_btn a.go_shop { background:url(../images/carSprites.png?id=1) no-repeat -96px -46px; width:118px; color:#333;}
+.addToCart .ATC_con .ATC_btn a.go_cart { width:130px; background:#f80000; color:#fff; border-radius:3px; margin-left:25px;}
+
+.ATC_contact { border:1px solid #e4e4e4; margin-top:30px;}
+.ATC_contact .tit { border-bottom:1px solid #e4e4e4; border-left:2px solid #ff2832; height:39px; line-height:39px; }
+.ATC_contact .tit h2 {font-size:14px; color:#333; text-indent:15px;}
+.ATC_contact  .ATCC_list {}
+.ATC_contact  .ATCC_list ul { padding:10px 3px 0;}
+.ATC_contact  .ATCC_list ul li { float:left; width:200px; padding:0px 24px;padding-bottom:23px; }
+.ATC_contact  .ATCC_list ul li .book_cover { text-align:center; height:160px; } 
+.ATC_contact  .ATCC_list ul li .book_cover img {max-width: 150px;max-height: 150px;} 
+.ATC_contact  .ATCC_list ul li .book_detail { padding:0px 8px;}
+.ATC_contact  .ATCC_list ul li .book_detail .price {overflow:hidden;  height:22px; line-height:22px; }
+.ATC_contact  .ATCC_list ul li .book_detail .price .price_sell { color:#ff2832; font-size:18px; font-weight:bold; float:left;}
+.ATC_contact  .ATCC_list ul li .book_detail .price .price_fixed { color:#666; margin-right:5px; }
+.ATC_contact  .ATCC_list ul li .book_detail .book_name{ line-height:18px; height:36px; overflow:hidden; }
+.ATC_contact  .ATCC_list ul li .book_detail .book_name a { color:#666;}
+.ATC_contact  .ATCC_list ul li .book_detail .ATC_btn { width:146px; height:28px; line-height:28px; margin:auto; text-align:center;      margin-top:6px;}
+.ATC_contact  .ATCC_list ul li .book_detail .ATC_btn a  { display:block; height:28px;color: #666; text-decoration:none;  border: 1px solid #999;  border-radius:3px;}
+.ATC_contact  .ATCC_list ul li .book_detail .ATC_btn a:hover { border: 1px solid #ff2832; background: #ff2832; color:#fff;}
