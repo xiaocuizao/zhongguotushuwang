@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head id="Head1">
     <title>
         用户登录--中国图书网
@@ -45,8 +46,6 @@
                             </div>
                             <div class="inputWrap">
                                 <span class="inputPad">
-                                    <input type="text" style="display: none" />
-                                    <input type="password" style="display: none" />
                                     <input type="text" class="inputBlock" value="" autocomplete="off" id="userName"
                                         placeholder="用户名/邮箱/已验证手机" />
                                 </span>
@@ -74,29 +73,6 @@
                             <span>请输入密码</span>
                         </div>
                     </div>
-                    <div class="inputItem">
-                        <div class="labInpWr">
-                            <div class="label">
-                                <span>验证码：</span>
-                            </div>
-                            <div class="inputWrap imgCodeWrap">
-                                <span class="inputPad">
-                                    <input type="text" class="inputBlock" id="imgcode" autocomplete="off"
-                                        placeholder="图片验证码" />
-                                </span>
-                                <span class="clearInput"></span>
-                            </div>
-                            <div class="imgWrap">
-                                <img src="" />
-                            </div>
-                            <div class="changeImgCoad">
-                                <a href="javascript:void(0)">换一换</a>
-                            </div>
-                        </div>
-                        <div class="megTip">
-                            <span>请填写图片中的字符，不区分大小写</span>
-                        </div>
-                    </div>
                     <div class="loginBtn" id="loginBtn">
                         <a href="javascript:void(0)">登录</a>
                     </div>
@@ -109,22 +85,17 @@
                             <span>使用以下账号登录</span>
                         </div>
                         <div class="otherLogin">
-                            <a href="javascript:void(0)"
-                                class="tsinalogin" id="tsinalogin"><span class="icon"></span>微博</a>
-                            <a href="javascript:void(0)"
-                                class="qqlogin" id="qqlogin"><span class="icon"></span>QQ</a>
-                            <a href="javascript:void(0)" class="wxlogin" id="wxlogin"><span
-                                    class="icon"></span>微信</a>
+                            <a href="javascript:void(0)" class="tsinalogin" id="tsinalogin"><span
+                                    class="icon"></span>微博</a>
+                            <a href="javascript:void(0)" class="qqlogin" id="qqlogin"><span class="icon"></span>QQ</a>
+                            <a href="javascript:void(0)" class="wxlogin" id="wxlogin"><span class="icon"></span>微信</a>
                             <a href="javascript:void(0)" class="baidulogin" id="baidulogin"><span
                                     class="icon"></span>百度</a>
 
                         </div>
                     </div>
 
-                    <div class="explainLink"><a href=""
-                            target="_blank">QQ、微博、百度登录绑定微信账号的解决方案</a></div>
-
-
+                    <div class="explainLink"><a href="" target="_blank">QQ、微博、百度登录绑定微信账号的解决方案</a></div>
                 </div>
             </div>
         </div>
@@ -171,6 +142,9 @@
             <a class="slide_min" onclick="NTKF.im_openInPageChat('kf_9067_1501484109259')">联系客服</a>
         </div>
     </div>
+    <script src="script/thirdplugins/jquery.min.js"></script>
+    <script src="script/js/login.js"></script>
 </body>
+
 
 </html>

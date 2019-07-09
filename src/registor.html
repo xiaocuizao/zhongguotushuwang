@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta http-equiv="Content-Language" content="gb2312" />
     <meta charset="UTF-8">
@@ -40,7 +41,8 @@
 
                 <div class="registTitle">
                     <b>新用户注册</b><span>注册即送一张19减5券，全场通用（淘书团除外）</span>
-                    <div class="backLogin">已有账号？<a href="/RegUser/login.aspx">请登录</a></div>
+                    <div class="backLogin">已有账号？<a href="http://localhost/zhongguotushuwang/src/login.html">请登录</a>
+                    </div>
                 </div>
 
                 <div class="registInputWrap">
@@ -54,28 +56,18 @@
                                 <span>用户名：</span>
                             </div>
 
-                            <div class="inputWrap">
+                            <div class="inputWrap inputWrapusername">
                                 <span class="inputPad">
-                                    <input type="text" style="display:none" />
-                                    <input type="password" style="display:none" />
-                                    <input type="text" placeholder="请输入您的用户名" autocomplete="off"
-                                        data-holder="请设置您的用户名" class="inputBlock required" keycodes="tel"
-                                        tabindex="1" data-valid="isNonEmpty||isPhone||isRegist"
-                                        data-error="请输入您的常用手机号码||手机号格式不正确，请重新输入||该号码已被注册，<a href='/RegUser/Login.aspx'>登录？</a>&nbsp;&nbsp;<a href='/RegUser/forgetpwd.aspx'>找回密码？</a> 若继续注册将与原账号解绑"
-                                        maxlength="11" id="phone" />
-                                </span>
-                                <span class="clearInput"></span>
+                                    <input type="text" placeholder="请输入您的用户名" autocomplete="off" id='username'
+                                        data-holder="请设置您的用户名" class="inputBlock required" keycodes="tel" </span>
+                                         <span class="clearInput"></span>
+                                        
                             </div>
-                            <div class="sucessWrap"></div>
-
-
+                            <div class="sucessWrap username"></div>
                         </div>
-
-                        <div class="megTip" data-defaultmeg="请输入常用手机号">
-                            <span>请输入常用手机号</span>
+                        <div class="megTip megTip-username">
+                            <span>请设置你的用户名</span>
                         </div>
-
-
                     </div>
                     <!-- ------设置密码---------->
                     <div class="inputItem">
@@ -96,90 +88,20 @@
                                 </span>
                                 <span class="clearInput"></span>
                             </div>
-                            <div class="sucessWrap"></div>
+                            <div class="sucessWrap sucessWrap-password"></div>
                         </div>
 
-                        <div class="megTip">
+                        <div class="megTip megTip-password">
                             <span>请设置6到16位登录密码</span>
                         </div>
-
-
                     </div>
-                    <!-- ------确认密码---------->
-                    <div class="inputItem">
-
-                        <div class="labInpWr">
-
-                            <div class="label">
-                                <span>确认密码：</span>
-                            </div>
-
-                            <div class="inputWrap">
-                                <span class="inputPad">
-                                    <input type="password"" placeholder=" 请再次输入密码" data-holder="请再次输入密码" maxlength="16"
-                                        class="inputBlock required" tabindex="3" style="ime-mode: disabled;"
-                                        onpaste="return  false" autocomplete="off"
-                                        data-valid="isNonEmpty||between:6-18||isRepeat:password"
-                                        data-error="密码不能为空||长度只能在6-16位||两次输入密码不一致，请重新输入" id="rePassword" />
-                                </span>
-                                <span class="clearInput"></span>
-                            </div>
-                            <div class="sucessWrap"></div>
-                        </div>
-
-                        <div class="megTip" data-defaultmeg="请再次输入密码">
-                            <span>请再次输入密码</span>
-                        </div>
-
-
-                    </div>
-                    <!-- ------验证码---------->
-                    <div class="inputItem">
-
-                        <div class="labInpWr">
-
-                            <div class="label">
-                                <span>验证码：</span>
-                            </div>
-
-                            <div class="inputWrap imgCodeWrap">
-                                <span class="inputPad">
-
-                                    <input type="text" placeholder="请输入右图验证码" data-holder="请输入右图验证码" maxlength="4"
-                                        class="inputBlock required" tabindex="4" id="randCode"
-                                        data-valid="isNonEmpty||isImgEqual" data-error="验证码不能为空||验证码错误，请重新输入">
-                                </span>
-                                <span class="clearInput"></span>
-                            </div>
-
-
-                            <div class="imgWrap" id="modifycodeImg">
-                                <img src="/Shop_Cart/YzmCode.aspx?ckname=regimgcode&t=636979611460808241" />
-                            </div>
-
-                            <div class="changeImgCoad">
-                                <a href="javascript:void(0)" id="changeImgCoad">换一换</a>
-                            </div>
-                            <div class="sucessWrap"></div>
-                        </div>
-
-                        <div class="megTip" data-defaultmeg="请输入图片验证码">
-                            <span>请输入图片验证码</span>
-                        </div>
-
-
-                    </div>      
-
-                    <div class="registBtn" id="registBtn">
+                    <div id="registBtn" class="registBtn">
                         <a href="javascript:void(0)">立即注册</a>
                     </div>
-
                 </div>
             </div>
-
         </div>
     </div>
-
 
 
     <div style="clear: both; width:1000px; margin:auto;">
@@ -233,7 +155,9 @@
 
     </div>
 
-
+    <script src="script/thirdplugins/jquery.min.js"></script>
+    <script src="script/thirdplugins/jquery.cookie.js"></script>
+    <script src="script/js/register.js"></script>
 
 </body>
 

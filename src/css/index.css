@@ -209,7 +209,7 @@ transition: -webkit-transform .4s ease-out; -moz-transition: transform .4s ease-
     top: 0px;
     left: 0px;
 }
-.tstList ul { position:absolute; left:0; top:0; width:1400px;}
+.tstList ul { position:absolute; left:0; top:0; width:2800px;}
 .tstList ul li {float:left; width:285px; border:1px solid #e6e6e6; margin-right:17px; overflow:hidden;  background:#edf8ff; height:297px; }
 .tstList ul li .bookCover { height:190px; position:relative; }
 .tstList ul li .bookCover span { position: absolute; width: 100%; height:30px; line-height: 30px; left: 0; bottom: 0; text-align: center; font-size: 15px; background-color: rgba(0,0,0,0.5); color: #fff30f; font-family:'Microsoft YaHei'; }
@@ -227,7 +227,7 @@ transition: -webkit-transform .4s ease-out; -moz-transition: transform .4s ease-
 .tstList ul li .priceWrap .price {float:left; margin-left:13px; color:#999; line-height:28px; }
 .tstList ul li .priceWrap .discount { float:right; background:#5bd7ff; color:#fff; line-height:16px; height:16px; padding:0 5px; border-radius:3px; margin-top:5px;}
 
-.tstList .arrow { position:absolute; width:27px; height:38px; top:85px;  cursor:pointer;  z-index:3;  display:none;}
+.tstList .arrow { position:absolute; width:27px;font-size: 24px;color: #fff;line-height: 38px; height:38px; top:85px;  cursor:pointer;  z-index:3;  display:none;}
 .tstList:hover .arrow { display:block; } 
 .tstList .leftArrow { left:2px; background:url(../Images/homeindex.png) no-repeat -73px -38px; background-color:#000; background-color:rgba(0,0,0,0.35);}
 .tstList .rightArrow { right:2px; background:url(../Images/homeindex.png) no-repeat -73px 0px; background-color:#000; background-color:rgba(0,0,0,0.35);}
