@@ -1,0 +1,1 @@
+"use strict";!function(e){e.fn.extend({tab:function(i,n,a,c){e(this).children().each(function(t,s){e(this).on("mouseover",function(t){var s=e(this).index();e(this).attr({class:c}).siblings().attr({class:""}),i.eq(s).attr({class:n}).siblings().attr({class:a})})})}})}(jQuery);
