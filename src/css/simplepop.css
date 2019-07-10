@@ -1,4 +1,4 @@
-/*.popMask { position: fixed; top: 0; left: 0; display: none; width: 100%; height: 100%; z-index: 9998; }
+.popMask { position: fixed; top: 0; left: 0; display: none; width: 100%; height: 100%; z-index: 9998; }
 
 .popMain { position: fixed; overflow: hidden; display: none; font-size: 15px; font-family: 'Microsoft YaHei'; border-radius: 4px; z-index: 9999; }
 .popMain .info_icon { background: #fff url(images/ico.png) no-repeat 0px -28px; }
@@ -19,7 +19,7 @@
 #simplePopBtnSure { border: none; cursor: pointer; padding: 6px 20px; color: #fff; float: right; margin-top: 13px; font-size: 15px; background-color: #fa9a0e; border-radius: 3px; }
 #SimplePopBtncancel { border: none; cursor: pointer; padding: 6px 20px; color: #fff; float: left; margin-top: 13px; font-size: 15px; background-color: #9d9d9d; border-radius: 3px; }
 .popContent .layer_msg button:hover { background-color: #cd9244; }
-.popContent .layer_msg button:active { background-color: #cd9244; }*/
+.popContent .layer_msg button:active { background-color: #cd9244; }
 
 /*自定义内容*/
 /*.upText { }

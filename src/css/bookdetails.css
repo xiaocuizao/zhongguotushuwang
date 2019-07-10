@@ -35,7 +35,7 @@
 
 
 .bookInfoWrap .bookDetaiWrap .bookCover .coverImg .activeIcon { position: absolute; top: 10px; right: 10px; }
-.bookInfoWrap .bookDetaiWrap .bookCover .bigIconTip { position: absolute; width: 20px; height: 21px; background: url(/Images/childredSprit.png) no-repeat -296px -236px; bottom: 10px; right: 10px; }
+.bookInfoWrap .bookDetaiWrap .bookCover .bigIconTip { position: absolute; width: 20px; height: 21px; background: url(http://www.bookschina.com/Images/childredSprit.png?id=180530) no-repeat -296px -236px; bottom: 10px; right: 10px; }
 .bookInfoWrap .bookDetaiWrap .bookInfo { float: right; width: 570px; }
 .bookInfoWrap .bookDetaiWrap .bookInfo .padLeft10 { padding-left: 10px; }
 .bookInfoWrap .bookDetaiWrap .bookInfo h1 { line-height: 24px; margin-top: 7px; font-family: 'Microsoft YaHei'; font-size: 18px; color: #333333; }
@@ -91,8 +91,8 @@
 .bookInfoWrap .bookDetaiWrap .bookInfo .oparateButton .stockoutsBut { width: 160px; line-height: 35px; text-indent: 61px; color: #333333; font-size: 16px; font-family: 'Microsoft YaHei'; background: url(/Images/childredSprit.png) no-repeat -335px -418px; text-decoration: none; }
 .bookInfoWrap .bookDetaiWrap .bookInfo .oparateButton .stockoutsBut:hover { background: url(/Images/childredSprit.png) no-repeat -335px -456px; }
 .bookInfoWrap .bookDetaiWrap .bookInfo .oparateButton .buyButton { width: 160px; line-height: 32px; text-indent: 45px; color: #fff; font-size: 16px; font-family: 'Microsoft YaHei'; background: url(http://www.bookschina.com/Images/childredSprit.png?id=180530) no-repeat -335px -262px; text-decoration: none; }
-.bookInfoWrap .bookDetaiWrap .bookInfo .oparateButton .buyButton:hover { background: url(/Images/childredSprit.png) no-repeat -335px -302px; }
-.bookInfoWrap .bookDetaiWrap .bookInfo .oparateButton .collectBtn { border: 1px solid #e60000; border-radius: 5px; height: 33px; line-height: 33px; text-align: center; width: 88px; line-height: 32px; color: #e60000; text-decoration: none; }
+/* .bookInfoWrap .bookDetaiWrap .bookInfo .oparateButton .buyButton:hover { background: url(/Images/childredSprit.png) no-repeat -335px -302px; }*/
+.bookInfoWrap .bookDetaiWrap .bookInfo .oparateButton .collectBtn { border: 1px solid #e60000; border-radius: 5px; height: 33px; line-height: 33px; text-align: center; width: 88px; line-height: 32px; color: #e60000; text-decoration: none; } 
 .bookInfoWrap .bookDetaiWrap .bookInfo .oparateButton .collectBtn:hover { background: #ffe5e5; }
 .bookInfoWrap .bookDetaiWrap .bookInfo .oparateButton  .stockNotice { float:left; height:35px; line-height: 35px; color:#666; margin-left:6px; }
 .bookInfoWrap .bookDetaiWrap .bookInfo .oparateButton .freightPolicyWrap { float: left; margin-left: 15px; position: relative; cursor: pointer; position: relative; }

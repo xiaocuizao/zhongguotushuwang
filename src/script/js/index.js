@@ -101,13 +101,13 @@
 				$.each(lunbodata, function (index, value) {
 					$lunbostr += `
 				<li>
-				<div class="bookCover"><a href="http://tuan.bookschina.com/tuan/11203"
+				<div class="bookCover"><a href="http://localhost/zhongguotushuwang/src/details.html?sid=${value.picid}"
 						title="${value.title}"
 						target="_blank"> <img
 							src="${value.url}"
 							alt="${value.title}"></a>
 				</div>
-				<p class="bookName"><a href="http://tuan.bookschina.com/tuan/11203"
+				<p class="bookName"><a href="http://localhost/zhongguotushuwang/src/details.html?sid=${value.picid}"
 						title="${value.title}"
 						target="_blank">${value.title}</a>
 				</p>
