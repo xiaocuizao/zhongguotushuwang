@@ -137,21 +137,21 @@
     float: left;
     color: #1a1a1a;
     font-size: 12px;
-    background: url(../images/promiseAd.png) no-repeat left;
+    background: url(http://www.bookschina.com/shopcar/images/promiseAd.png) no-repeat left;
     padding-left: 49px;
     margin-right: 33px;
 }
 
 .logoBar .logoBarInner .ad span.zhengbang {
-    background: url(../images/promiseAd.png) no-repeat left;
+    background: url(http://www.bookschina.com/shopcar/images/promiseAd.png) no-repeat left;
 }
 
 .logoBar .logoBarInner .ad span.liujiu {
-    background: url(../images/promiseAd.png) no-repeat -141px;
+    background: url(http://www.bookschina.com/shopcar/images/promiseAd.png) no-repeat -141px;
 }
 
 .logoBar .logoBarInner .ad span.yizhe {
-    background: url(../images/promiseAd.png) no-repeat -289px;
+    background: url(http://www.bookschina.com/shopcar/images/promiseAd.png) no-repeat -289px;
     margin-right: 0px
 }
 
