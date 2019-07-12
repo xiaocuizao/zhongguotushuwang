@@ -28,14 +28,15 @@
                     var unmstr='';
 
                     if ($.cookie('picid') && $.cookie('num')) {
-                        picidarr =decodeURI($.cookie('picid')).split(',') ;
-                        numarr = decodeURI($.cookie('num')).split(',');
+                        picidarr =$.cookie('picid').split(',') ;
+                        numarr = $.cookie('num').split(',');
                         picidarr = picidarr.map(Number);
                         numarr = numarr.map(Number);
 
                         if (picidarr.indexOf(result) != -1) {
                             var num = null;
-                            num = numarr[picidarr.indexOf(result)]++;
+                            num =numarr[picidarr.indexOf(result)];
+                            num++
                             numarr[picidarr.indexOf(result)] = num;
                             picidstr = picidarr.join(',');
                             numstr = numarr.join(',');
@@ -43,7 +44,7 @@
                             $.cookie('picid', picidstr, {
                                 expires: 7
                             });
-                            $.cookie('num', numstr, {
+                            $.cookie('num',numstr , {
                                 expires: 7
                             });
 
@@ -51,8 +52,8 @@
                             picidarr.push(result);
                             numarr.push(1);
                            
-                            picidstr = encodeURI(picidarr.join(',')) ;
-                            numstr = encodeURI(numarr.join(',')) ;
+                            picidstr = picidarr.join(',') ;
+                            numstr = numarr.join(',') ;
 
                             $.cookie('picid', picidstr, {
                                 expires: 7

@@ -167,12 +167,14 @@ body {font-family: "Microsoft YaHei",tahoma,arial,"Hiragino Sans GB","\5b8b\4f53
 .shoppingfootinner.fixed {box-shadow: 0 -1px 8px rgba(0,1,1,.08); width:100%;  bottom:0px; overflow:hidden; position:fixed; left:0px; background:#e5e5e5; border-top:none; z-index:999; padding:9px 0px;}
 .shoppingFoot .shoppingFootLeft { height:60px; line-height:60px;}
 .shoppingFoot .shoppingFootLeft .Checkbox { width:75px; color:#333;}
-.shoppingFoot .shoppingFootLeft .Checkbox span {margin:23px 23px 0px 13px; float:left;  height:14px; width:14px; background:url(../img/carSprites.png) no-repeat left -47px; text-indent:999px; overflow:hidden; display:inline; cursor:pointer;}
+.shoppingFoot .shoppingFootLeft .Checkbox span {margin:23px 23px 0px 13px; float:left;  height:14px; width:14px; background:url(../img/carSprites.png) no-repeat left -32px; text-indent:999px; overflow:hidden; display:inline; cursor:pointer;}
 .shoppingFoot .shoppingFootLeft .Checkbox span.selectAll { background:url(../img/carSprites.png) no-repeat left -47px; }
 .shoppingFoot .shoppingFootLeft .removeGood {  padding-left:19px;  }
 .shoppingFoot .shoppingFootLeft .removeGood a { color:#333;}
 .shoppingFoot .shoppingFootLeft .removeToCelect { width:84px; padding-left:20px;  }
 .shoppingFoot .shoppingFootLeft .removeToCelect a { color:#333;}
+
+
 
 .shoppingFoot .shoppingFootRight  { height:60px;}
 .shoppingFoot .shoppingFootRight .shoppingResult  { height:60px; padding-right:30px;}

@@ -1,6 +1,10 @@
 ;//banner数据渲染与效果
 (function ($) {
-	//banner数据
+	//懒加载
+	$("img").lazyload({
+		threshold : 200
+		});
+	//banner数据的获取
 	$.ajax({
 			url: 'http://localhost/zhongguotushuwang/php/bannerdata.php',
 			dataType: 'json'
@@ -85,12 +89,8 @@
 			}
 		);
 })(jQuery);
-//海书团热销全场包邮，低至一折，每天上线-----(效果幻灯片数据-----懒加载)
-;(function () {
-	$(window).on('scroll',function(){
-		console.log($('.tstWrap .tstCon').position().top);
-		if($(window).scrollTop()+$(window).outerHeight(true)>=$('.tstWrap .tstCon').position().top){
-			console.log(1)
+//海书团热销全场包邮，低至一折，每天上线-----(效果幻灯片数据)
+;(function () {		
 			$.ajax({
 				url: 'http://localhost/zhongguotushuwang/php/lunbodata.php',
 				dataType: 'json'
@@ -157,8 +157,8 @@
 					})
 				}
 			);
-		}
-	})	
+		
+
 })();
 
 //下拉菜单--结构渲染与效果
@@ -195,6 +195,7 @@
 			})
 		})
 
+
 	})
 })(jQuery);
 
@@ -210,7 +211,7 @@
 	})
 	
 	//图书分类---tab切换
-	console.log($('.category .category-list').eq(0));
+
 	$('.category .category-list').eq(0).children().each(function(index){
 		$(this).on('mouseover',function(){
 			$(this).attr({class:'js_toggle hover'}).siblings().attr({class:'js_toggle'});
